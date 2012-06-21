@@ -1,5 +1,5 @@
-desc "Begin a new post"
-task :post do
+desc "Add new dataset"
+task :dataset do
   abort('rake aborted: _posts directory not found.') unless FileTest.directory?('_posts')
 
   title = ENV['title'] || 'new-post'
@@ -27,4 +27,9 @@ task :post do
     post.puts "---"
     post.puts "content goes here"
   end
+end
+
+desc "Compile the site"
+task :compile do
+  system('jekyll /www/hydro/htdocs')
 end
