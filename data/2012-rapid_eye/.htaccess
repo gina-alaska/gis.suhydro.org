@@ -1,0 +1,6 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /home/processing/gits/hydro-site/.htpasswd
+AuthGroupFile /dev/null 
+Require User suwa
+Options Indexes

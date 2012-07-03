@@ -1,0 +1,18 @@
+---
+layout: default
+title: "MatSu Imagery and Lidar"
+category: matsu, lidar, imagery, dem
+---
+
+h1. MatSu Imagery and Lidar
+
+GINA is hosting a public mirror of the MatSu Imagery and LiDAR project.  
+
+h2. "http://matsu.gina.alaska.edu":http://matsu.gina.alaska.edu
+
+Things of note at this point:
+
+* There are "WMS services":http://matsu.gina.alaska.edu/services (web mapping service)
+available so Desktop GIS users can begin using the imagery now.
+
+* The MrSID2 imagery mosiacs are available as bundled .zip files. 

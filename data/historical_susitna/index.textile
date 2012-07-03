@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Historical Susitna Imagery"
+category: imagery
+---
+
+h1. Historical Susitna Imagery
+
+h2. This dataset not yet available.  
+
+We should have this dataset available for download and as Web Mapping Service (WMS) the week of July 9th.  Please contact dayne@alaska.edu if you are interested a copy via a hard disk.
+
+Quick overview of the data:
+
+* 1983 aerial image colleciton
+* Panchromatic (greyscale)
+* Rescanned/reorthoed by Aerometric in 2012
+* Terrain correction done using the "2011 MatSu LiDAR":http://matsu.gina.alaska.edu
+* Two scales: 1/2 foot (6 inch) and 1 foot.
+* public domain license
