@@ -1,3 +1,8 @@
+
+task :default do
+  puts "you don't know what you want to do.  use rake -T"
+end
+
 desc "Add new dataset"
 task :dataset do
   abort('rake aborted: _posts directory not found.') unless FileTest.directory?('_posts')
@@ -32,4 +37,5 @@ end
 desc "Compile the site"
 task :compile do
   system('jekyll /www/hydro/htdocs')
+#  system('cp data/2012-rapid_eye/.htaccess /www/hydro/htdocs/data/2012-rapid_eye/.htaccess')
 end

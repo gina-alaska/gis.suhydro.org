@@ -8,7 +8,9 @@ h1. Historical Susitna Imagery
 
 h2. This dataset not yet available.  
 
-We should have this dataset available for download and as Web Mapping Service (WMS) the week of July 9th.  Please contact dayne@alaska.edu if you are interested a copy via a hard disk.
+We should have this dataset available for download and as Web Mapping Service (WMS) the week of Mid-August.  
+
+Please contact dayne@alaska.edu if you are interested a copy via a hard disk.
 
 Quick overview of the data:
 

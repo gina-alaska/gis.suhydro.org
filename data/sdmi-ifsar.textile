@@ -1,11 +1,15 @@
 ---
 layout: default
-title: "2012 SDMI IFSAR"
+title: "SDMI IFSAR"
 category: elevation
 ---
 
-h1. SDMI IFSAR sub page
+h1. SDMI IFSAR
 
-h2. currently out for RFQ
+The 2010 SDMI IFSAR collection overlapped much the SuWa Hydro project.  UAF-GINA is developing a website "ifsar.gina.alaska.edu":http://ifsar.gina.alaska.edu as a data distribution website.
 
-details coming shortly
+Quick overview for SuWa Hydro folks:
+
+* The official deliverables did not include contours.  The collection was done at an accuracy and density that should cleanly support 22 foot contour lines.
+* Public domain
+* Informational website: "ifsar.gina.alaska.edu":http://ifsar.gina.alaska.edu

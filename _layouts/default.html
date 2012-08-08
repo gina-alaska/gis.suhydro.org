@@ -14,7 +14,7 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a href="/" class="brand">{{ page.title }}</a>
+          <a href="/" class="brand">SuWa Hydro &rsaquo; {{ page.title }}</a>
         </div>
       </div>
     </div>
@@ -25,14 +25,9 @@
             <li class="nav-header">Navigation</li>
             <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="/">Home</a></li>
             <li class="nav-header">Datasets</li>
-            {% for post in site.posts %}
-            <li class="{% if page.url == post.url %}active{% endif %}">
-              <a href="{{ post.url }}">
-                <i class="icon-folder-close"></i>
-                {{ post.title }}
-              </a>
-            </li>
-            {% endfor %}
+            <li><a href="/data/matsu_imagery_lidar.html">MatSu 2011 Imagery & LiDAR</a></li>
+            <li><a href="/data/historical_susitna/">Historical Susitna</a></li>
+            <li><a href="/data/sdmi-ifsar.html">SDMI IFSAR</a>
           </ul>
         </div>
         <div class="span8">
