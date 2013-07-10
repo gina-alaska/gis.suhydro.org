@@ -3,33 +3,37 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
  */
-/* line 12, ../_scss/screen.scss */
-#content {
-  margin-top: 45px;
+/* line 9, ../_scss/screen.scss */
+body, html {
+  font-family: 'Karla', sans-serif;
 }
 
 /* line 16, ../_scss/screen.scss */
+#content {
+  margin-top: 10px;
+}
+
+/* line 20, ../_scss/screen.scss */
 .navbar .navbar-inner {
   background-color: #006b04;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #006b04), color-stop(100%, #008505));
   background-image: -webkit-linear-gradient(#006b04, #008505);
   background-image: -moz-linear-gradient(#006b04, #008505);
   background-image: -o-linear-gradient(#006b04, #008505);
-  background-image: -ms-linear-gradient(#006b04, #008505);
   background-image: linear-gradient(#006b04, #008505);
 }
-/* line 22, ../_scss/screen.scss */
+/* line 26, ../_scss/screen.scss */
 .navbar .navbar-inner a {
   color: #FFF;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* line 29, ../_scss/screen.scss */
+/* line 33, ../_scss/screen.scss */
 .nav-list li {
   font-size: 1.2em;
 }
-/* line 32, ../_scss/screen.scss */
+/* line 36, ../_scss/screen.scss */
 .nav-list li.nav-header {
   padding-left: 0;
   font-size: 1.3em;
