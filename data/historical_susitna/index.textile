@@ -6,11 +6,13 @@ category: imagery
 
 h1. Historical Susitna Imagery
 
-h2. This dataset not yet available.  
+h2. This dataset is available as a WMS.  
 
-We should have this dataset available for download and as Web Mapping Service (WMS) the week of Mid-August.  
+WMS Endpoint: "ogc.gina.alaska.edu/aea/suwa":http://ogc.gina.alaska.edu/aea/suwa 
 
-Please contact dayne@alaska.edu if you are interested a copy via a hard disk.
+This dataset will be available for download shortly.  
+
+Please contact dayne@alaska.edu if you are interested in a copy via a hard disk.
 
 Quick overview of the data:
 

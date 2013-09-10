@@ -13,7 +13,7 @@ task :dataset do
 
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 
-  filename = File.join('data', "#{slug}.md")
+  filename = File.join('data', "#{slug}.textile")
   if File.exists?(filename)
     abort('rake aborted!') if ask("#{filename} already exists.  Do you want to overwrite?", ['y','n']) == 'n'
   end

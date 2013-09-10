@@ -1,0 +1,14 @@
+---
+layout: default
+title: "2012 Riverflow Geomorphology"
+category:  
+---
+h1. 2012 Riverflow Geomorphology
+
+h2. This dataset is available as a WMS.  
+
+WMS Endpoint: "ogc.gina.alaska.edu/aea/suwa":http://ogc.gina.alaska.edu/aea/suwa 
+
+This dataset will be available for download shortly.  
+
+Please contact dayne@alaska.edu if you are interested in a copy via a hard disk.
