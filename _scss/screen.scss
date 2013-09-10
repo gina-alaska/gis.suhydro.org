@@ -6,11 +6,15 @@
 
 @import 'compass';
 
+body, html {
+  font-family: 'Karla', sans-serif;
+}
+
 $baseColor: #006b04;
 $navbarColor: $baseColor;
 
 #content {
-  margin-top: 45px;
+  margin-top: 10px;
 }
 
 .navbar .navbar-inner {
@@ -34,3 +38,4 @@ $navbarColor: $baseColor;
     font-size: 1.3em;
   }
 }
+
