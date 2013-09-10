@@ -11,5 +11,9 @@ The 2010 SDMI IFSAR collection overlapped much the SuWa Hydro project.  UAF-GINA
 Quick overview for SuWa Hydro folks:
 
 * The official deliverables did not include contours.  The collection was done at an accuracy and density that should cleanly support 22 foot contour lines.
-* Public domain
-* Informational website: "ifsar.gina.alaska.edu":http://ifsar.gina.alaska.edu
+* Public domain dataset
+* SuWa GIS users primarily need to be aware of the WMS hillshades available:
+** http://wms.alaskamapped.org/ifsar
+
+
+h2. "ifsar.gina.alaska.edu":http://ifsar.gina.alaska.edu
