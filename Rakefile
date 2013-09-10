@@ -5,20 +5,15 @@ end
 
 desc "Add new dataset"
 task :dataset do
+  require 'highline/import'
+
   abort('rake aborted: _posts directory not found.') unless FileTest.directory?('_posts')
 
   title = ENV['title'] || 'new-post'
 
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 
-  begin
-    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
-  rescue Exception => e
-    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
-    exit-1
-  end
-
-  filename = File.join('_posts', "#{date}-#{slug}.md")
+  filename = File.join('data', "#{slug}.md")
   if File.exists?(filename)
     abort('rake aborted!') if ask("#{filename} already exists.  Do you want to overwrite?", ['y','n']) == 'n'
   end
@@ -32,6 +27,14 @@ task :dataset do
     post.puts "---"
     post.puts "content goes here"
   end
+
+  puts "Please add: data/#{slug}.html to _layouts/default.html"
+end
+
+desc "Start local server"
+task :server do
+  puts "Starting server on port 5000!"
+  system "jekyll serve -P 5000 -w"
 end
 
 desc "Compile the site"
