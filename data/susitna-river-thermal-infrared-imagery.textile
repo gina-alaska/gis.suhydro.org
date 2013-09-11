@@ -3,4 +3,21 @@ layout: default
 title: "Susitna River Thermal Infrared Imagery"
 category: 
 ---
-content goes here
+
+h1. 2012 Susitna River Thermal Infrared Imagery
+
+h2. This dataset is available as a WMS.
+
+WMS Endpoint: "ogc.gina.alaska.edu/aea/suwa":http://ogc.gina.alaska.edu/aea/suwa
+
+This dataset will be available for download shortly.
+
+Please contact mitch@gina.alaska.edu if you are interested in a copy via a hard disk.
+
+Quick overview of the data:
+
+* October 2012 FLIR collection
+* color ramped 16bit single channel data
+* Georectified and Interpreted by URS 
+* .7 meter resolution
+* public domain license

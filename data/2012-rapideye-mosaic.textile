@@ -1,0 +1,26 @@
+---
+layout: default
+title: "2011 RapidEye Mosaic"
+category: 
+---
+
+h1. 2011 RapidEye Mosaic
+
+h2. This dataset is available as a WMS.
+
+WMS Endpoint: "ogc.gina.alaska.edu/aea/suwa.private/rapideye":http://ogc.gina.alaska.edu/aea/suwa.private/rapideye
+
+This dataset will be available for download shortly.
+
+This is license restricted data and not available for public distribution.
+
+Please contact mitch@gina.alaska.edu if you are interested in a copy via a hard disk or require access information.
+
+Quick overview of the data:
+
+* 2011-2009 satellite mosaic
+* 8bit orthorectified pan-sharpened color infrared and true color imagery
+* 5 m resolution
+* available under RapidEye AG license                                                            
+
+

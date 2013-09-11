@@ -12,11 +12,11 @@ WMS Endpoint: "ogc.gina.alaska.edu/aea/suwa":http://ogc.gina.alaska.edu/aea/suwa
 
 This dataset will be available for download shortly.  
 
-Please contact dayne@alaska.edu if you are interested in a copy via a hard disk.
+Please contact mitch@gina.alaska.edu if you are interested in a copy via a hard disk.
 
 Quick overview of the data:
 
-* 1983 aerial image colleciton
+* 1983 aerial image collection
 * Panchromatic (greyscale)
 * Rescanned/reorthoed by Aerometric in 2012
 * Terrain correction done using the "2011 MatSu LiDAR":http://matsu.gina.alaska.edu
