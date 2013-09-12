@@ -38,7 +38,9 @@ task :server do
 end
 
 desc "Compile the site"
-task :compile do
-  system('jekyll /www/hydro/htdocs')
+namespace :compile do
+task :production do
+  system('jekyll build -d /www/gis.suhydro.org/htdocs')
 #  system('cp data/2012-rapid_eye/.htaccess /www/hydro/htdocs/data/2012-rapid_eye/.htaccess')
+end
 end
