@@ -10,11 +10,9 @@ h2. This dataset is available as a WMS.
 
 WMS Endpoint: "ogc.gina.alaska.edu/aea/suwa.private/veg_map_sat":http://ogc.gina.alaska.edu/aea/suwa.private/veg_map_sat 
 
-This dataset will be available for download shortly.  
-
 This is license restricted data and not available for public distribution.
 
-Please contact mitch@gina.alaska.edu if you are interested in a copy via a hard disk or require access information.
+Please contact mitch@gina.alaska.edu if you are interested in a copy via hard disk or require wms access information.
 
 Quick overview of the data:
 

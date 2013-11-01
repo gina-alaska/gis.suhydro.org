@@ -6,13 +6,13 @@ category:
 
 h1. 2012 Susitna River Thermal Infrared Imagery
 
-h2. This dataset is available as a WMS.
+h2. This dataset is available for download and as a WMS.
 
 WMS Endpoint: "ogc.gina.alaska.edu/aea/suwa":http://ogc.gina.alaska.edu/aea/suwa
 
-This dataset will be available for download shortly.
+"Download":http://gis.suhydro.org/pub/2012_Susitna_TIR/
 
-Please contact mitch@gina.alaska.edu if you are interested in a copy via a hard disk.
+Please contact mitch@gina.alaska.edu if you are interested in a copy via hard disk.
 
 Quick overview of the data:
 
